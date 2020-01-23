@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+
+h1 {
+    font-size: 45px;
+}
+
+#grandparent {
+    height: 100vh;
+    line-height: 4;
+}
+
+#keyedIn {
+    border: 1px solid silver;
+    border-radius: 5px;
+    height: 20vh;
+    width: 20vw;
+    font-size: 36px;
+}
+
+#keycode {
+    line-height: 4;
+}
+
+#parent {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+#childOne, #childTwo, #childThree {
+    border: 1px solid silver;
+    border-radius: 7px;
+    width: 20vw;
+    background-color: lightsteelblue;
+    line-height: 2;
+}
+
+#childOne h3, #childTwo h3, #childThree h3 {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.keyEvent, .whichEvent, .codeEvent {
+    border-top: 2px solid silver;
+    padding: 4%;
+    background-color: #f4f4f4;
+    color: grey;
+}

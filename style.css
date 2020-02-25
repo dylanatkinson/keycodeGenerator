@@ -34,7 +34,6 @@ h1 {
 #parent {
     display: flex;
     justify-content: space-evenly;
-    padding: 2%;
 }
 
 #childOne, #childTwo, #childThree {
